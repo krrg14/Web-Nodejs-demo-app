@@ -23,7 +23,7 @@ The application is developed using Node.js and Express.js and is packaged into a
 
 ## 📁 Project Structure
 
-```text
+```
 Web-Nodejs-demo-app/
 │
 ├── .github/
@@ -39,3 +39,43 @@ Web-Nodejs-demo-app/
 ├── server.js
 ├── .gitignore
 └── README.md
+
+```
+
+## 🚀 Project Overview
+
+```
+
+This project demonstrates a basic DevOps workflow:
+
+Developer
+    │
+    │ git push
+    ▼
+GitHub Repository
+    │
+    ▼
+GitHub Actions
+    │
+    ├── Checkout Code
+    │
+    ├── Setup Node.js
+    │
+    ├── Install Dependencies
+    │
+    ├── Run Tests
+    │
+    ├── Build Application
+    │
+    ├── Login to Docker Hub
+    │
+    ├── Build Docker Image
+    │
+    └── Push Docker Image
+             │
+             ▼
+        Docker Hub
+
+```
+## Snapshot
+<img width="1754" height="967" alt="Screenshot 2026-10-02 011751" src="https://github.com/user-attachments/assets/dbe08223-1c9e-4033-98e6-b70c3a231c34" />
